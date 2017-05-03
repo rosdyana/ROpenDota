@@ -3,4 +3,6 @@
 export(count_player_win_lose)
 export(get_hero_benchmarks)
 export(get_match_details)
+export(get_matches)
 export(get_player_summaries)
+export(get_recent_matches)
