@@ -10,7 +10,7 @@ get_matches <- function(account_id, limit){
 
   prefix <- "https://api.opendota.com/api/players/"
 
-  url <- paste(prefix, account_id, "matches/?limit=", limit ,sep = "")
+  url <- paste(prefix, account_id, "/matches/?limit=", limit ,sep = "")
 
   raw <- getURL(url)
 
