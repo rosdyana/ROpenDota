@@ -13,6 +13,8 @@ get_played_with(account_id)
 Get played with for specific player id
 }
 \examples{
+\dontrun{
 id_r3m1ck = "135474549"
 playedWith <- get_played_with(account_id = id_r3m1ck)
+}
 }

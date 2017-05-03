@@ -2,8 +2,10 @@
 #' @param hero_id Hero Id
 #' @export
 #' @examples
+#' \dontrun{
 #' viperId = "47"
 #' topPlayer <- top_player_by_hero(hero = viperId)
+#' }
 top_player_by_hero <- function(hero_id){
 
   prefix <- "https://api.opendota.com/api/rankings/?hero_id="

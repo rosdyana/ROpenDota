@@ -13,7 +13,9 @@ count_player_win_lose(account_id)
 Counting win or lose for specific player id
 }
 \examples{
+\dontrun{
 #Count r3m1ck's win and lose summaries
 id_r3m1ck = "135474549"
 count_win_lose <- count_player_win_lose(account_id = id_r3m1ck)
+}
 }

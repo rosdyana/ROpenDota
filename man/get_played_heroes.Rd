@@ -13,6 +13,8 @@ get_played_heroes(account_id)
 Get played heroes for specific player id
 }
 \examples{
+\dontrun{
 id_r3m1ck = "135474549"
 playedHeroes <- get_played_heroes(account_id = id_r3m1ck)
+}
 }

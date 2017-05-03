@@ -13,6 +13,8 @@ count_in_categories(account_id)
 Count in categories for specific player id
 }
 \examples{
+\dontrun{
 id_r3m1ck = "135474549"
 countMe <- count_in_categories(account_id = id_r3m1ck)
+}
 }

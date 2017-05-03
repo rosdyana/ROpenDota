@@ -15,7 +15,9 @@ get_matches(account_id, limit)
 Get Matches for specific player id
 }
 \examples{
+\dontrun{
 id_r3m1ck = "135474549"
 limit = 5
 matches <- get_matches(account_id = id_r3m1ck, limit = limit)
+}
 }

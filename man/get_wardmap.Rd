@@ -13,6 +13,8 @@ get_wardmap(account_id)
 Get ward map for specific player id
 }
 \examples{
+\dontrun{
 id_r3m1ck = "135474549"
 wardMap <- get_wardmap(account_id = id_r3m1ck)
+}
 }

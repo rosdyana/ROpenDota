@@ -7,7 +7,7 @@
 get_match_details(match_id)
 }
 \arguments{
-\item{match_id}{Dota2 match id. You can get them of a specific player using \code{\link{GetMatchHistory}}.}
+\item{match_id}{Dota2 match id. You can get them of a specific player using \code{\link{get_matches}}.}
 }
 \value{
 GetMatchDetails returns a list, which includes the details like result, duration and etc.
@@ -16,6 +16,8 @@ GetMatchDetails returns a list, which includes the details like result, duration
 Get details of a single match
 }
 \examples{
+\dontrun{
 match_id = "3114150257"
 matchDetails <- get_match_details(match_id)
+}
 }

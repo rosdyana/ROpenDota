@@ -13,6 +13,8 @@ get_recent_matches(account_id)
 Get recent matches for specific player id
 }
 \examples{
+\dontrun{
 id_r3m1ck = "135474549"
 recentMatches <- get_recent_matches(account_id = id_r3m1ck)
+}
 }

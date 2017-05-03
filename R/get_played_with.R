@@ -2,8 +2,10 @@
 #' @param account_id Steam ID
 #' @export
 #' @examples
+#' \dontrun{
 #' id_r3m1ck = "135474549"
 #' playedWith <- get_played_with(account_id = id_r3m1ck)
+#' }
 get_played_with <- function(account_id){
 
   prefix <- "https://api.opendota.com/api/players/"

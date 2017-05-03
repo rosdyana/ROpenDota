@@ -7,7 +7,7 @@
 get_hero_benchmarks(hero_id)
 }
 \arguments{
-\item{hero_id}{Dota2 hero id. You can get the hero id using \code{\link{GetHeroes}}.}
+\item{hero_id}{Dota2 hero id. You can get the hero id using \code{\link{get_heroes}}.}
 }
 \value{
 GetHeroBenchmark returns a list, which includes the details like gold per minutes, xp per minutes, kills per minutes etc.
@@ -16,6 +16,8 @@ GetHeroBenchmark returns a list, which includes the details like gold per minute
 Get benchmark of single hero
 }
 \examples{
+\dontrun{
 hero_id = "47"
 viperBenchmarks <- get_hero_benchmarks(hero_id)
+}
 }

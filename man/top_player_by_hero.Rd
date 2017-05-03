@@ -13,6 +13,8 @@ top_player_by_hero(hero_id)
 Get heroes rankings for specific player id
 }
 \examples{
+\dontrun{
 viperId = "47"
 topPlayer <- top_player_by_hero(hero = viperId)
+}
 }

@@ -4,12 +4,13 @@
 \alias{get_hero_stats}
 \title{Get hero stats}
 \usage{
-get_hero_stats(account_id)
+get_hero_stats()
 }
 \description{
 Get hero stats
 }
 \examples{
-id_r3m1ck = "135474549"
-heroStats <- get_hero_rankings(account_id = id_r3m1ck)
+\dontrun{
+heroStats <- get_hero_stats()
+}
 }

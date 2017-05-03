@@ -13,6 +13,8 @@ total_stats(account_id)
 Get total status for specific player id
 }
 \examples{
+\dontrun{
 id_r3m1ck = "135474549"
 totalStats <- total_stats(account_id = id_r3m1ck)
+}
 }

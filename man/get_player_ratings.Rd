@@ -13,6 +13,8 @@ get_player_ratings(account_id)
 Get ratings for specific player id
 }
 \examples{
+\dontrun{
 id_r3m1ck = "135474549"
 ratings <- get_player_ratings(account_id = id_r3m1ck)
+}
 }

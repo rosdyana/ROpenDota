@@ -2,9 +2,11 @@
 #' @param account_id Steam ID
 #' @export
 #' @examples
+#' \dontrun{
 #' #Count r3m1ck's win and lose summaries
 #' id_r3m1ck = "135474549"
 #' count_win_lose <- count_player_win_lose(account_id = id_r3m1ck)
+#' }
 count_player_win_lose <- function(account_id){
 
   prefix <- "https://api.opendota.com/api/players/"
