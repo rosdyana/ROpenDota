@@ -1,5 +1,7 @@
 #' Get ratings for specific player id
 #' @param account_id Steam ID
+#' @import RCurl
+#' @import jsonlite
 #' @export
 #' @examples
 #' \dontrun{

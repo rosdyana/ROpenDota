@@ -1,4 +1,6 @@
 #' Get hero stats
+#' @import RCurl
+#' @import jsonlite
 #' @export
 #' @examples
 #' \dontrun{
