@@ -17,7 +17,7 @@ The service is provided on a best-effort basis. Since it relies on Valve infrast
 
 
 #### Released Version
-waiting approval from CRAN
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ROpenDota)](https://cran.r-project.org/package=ROpenDota)
 
 
 ## Installation
