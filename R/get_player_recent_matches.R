@@ -7,6 +7,7 @@
 #' recentMatches <- get_recent_matches(account_id = id_r3m1ck)
 #' }
 get_recent_matches <- function(account_id){
+  api_delay(proc.time()[3])
 
   prefix <- "https://api.opendota.com/api/players/"
 

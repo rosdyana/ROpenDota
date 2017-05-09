@@ -9,6 +9,7 @@
 #' matches <- get_matches(account_id = id_r3m1ck, limit = limit)
 #' }
 get_matches <- function(account_id, limit){
+  api_delay(proc.time()[3])
 
   prefix <- "https://api.opendota.com/api/players/"
 

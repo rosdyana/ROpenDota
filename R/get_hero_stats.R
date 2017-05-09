@@ -7,6 +7,7 @@
 #' heroStats <- get_hero_stats()
 #' }
 get_hero_stats <- function(){
+  api_delay(proc.time()[3])
 
   url <- "https://api.opendota.com/api/heroStats"
 

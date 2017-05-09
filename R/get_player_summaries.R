@@ -10,6 +10,7 @@
 #' playerSummaries$profile$personaname
 #' }
 get_player_summaries <- function(account_id) {
+  api_delay(proc.time()[3])
 
   prefix <- "https://api.opendota.com/api/players/"
 

@@ -7,6 +7,7 @@
 #' rankings <- get_hero_rankings(account_id = id_r3m1ck)
 #' }
 get_hero_rankings <- function(account_id){
+  api_delay(proc.time()[3])
 
   prefix <- "https://api.opendota.com/api/players/"
 

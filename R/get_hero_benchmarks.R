@@ -10,6 +10,7 @@
 #' viperBenchmarks <- get_hero_benchmarks(hero_id)
 #' }
 get_hero_benchmarks <- function(hero_id) {
+  api_delay(proc.time()[3])
 
   prefix <- "https://api.opendota.com/api/benchmarks"
 

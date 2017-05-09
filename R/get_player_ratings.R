@@ -9,6 +9,7 @@
 #' ratings <- get_player_ratings(account_id = id_r3m1ck)
 #' }
 get_player_ratings <- function(account_id){
+  api_delay(proc.time()[3])
 
   prefix <- "https://api.opendota.com/api/players/"
 

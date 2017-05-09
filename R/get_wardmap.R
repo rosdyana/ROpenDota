@@ -7,6 +7,7 @@
 #' wardMap <- get_wardmap(account_id = id_r3m1ck)
 #' }
 get_wardmap <- function(account_id){
+  api_delay(proc.time()[3])
 
   prefix <- "https://api.opendota.com/api/players/"
 

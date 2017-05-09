@@ -5,6 +5,7 @@
 #' heroes <- get_heroes()
 #' }
 get_heroes <- function(){
+  api_delay(proc.time()[3])
 
   url <- "https://api.opendota.com/api/heroes"
 
