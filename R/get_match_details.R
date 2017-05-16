@@ -18,9 +18,7 @@ get_match_details <- function(match_id) {
 
   readlines <- readLines(url, warn = FALSE)
 
-  raw <- getURL(readlines)
-
-  matchDetails <- fromJSON(raw)
+  matchDetails <- fromJSON(readlines)
 
   return(matchDetails)
 
