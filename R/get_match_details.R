@@ -16,7 +16,9 @@ get_match_details <- function(match_id) {
 
   url <- paste(prefix, match_id, sep = "")
 
-  raw <- getURL(url)
+  readlines <- readLines(url, warn = FALSE)
+
+  raw <- getURL(readlines)
 
   matchDetails <- fromJSON(raw)
 

@@ -13,7 +13,9 @@ count_in_categories <- function(account_id){
 
   url <- paste(prefix, account_id, "/counts" ,sep = "")
 
-  raw <- getURL(url)
+  readlines <- readLines(url, warn = FALSE)
+
+  raw <- getURL(readlines)
 
   countMe <- fromJSON(raw)
 

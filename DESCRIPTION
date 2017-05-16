@@ -1,7 +1,7 @@
 Package: ROpenDota
 Type: Package
 Title: Access OpenDota Services in R
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Rosdyana", "Kusuma", email = "rosdyana.kusuma@gmail.com",
                   role = c("aut", "cre"))
 URL: https://github.com/rosdyana/ROpenDota
