@@ -1,5 +1,5 @@
 # ROpenDota
-[![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/ROpenDota)](http://cran.rstudio.com/package=ROpenDota)
+[![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/ROpenDota)](https://cran.rstudio.com/web/packages/ROpenDota/index.html)
 ***
 ## Description
 
