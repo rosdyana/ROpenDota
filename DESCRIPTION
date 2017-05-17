@@ -16,3 +16,4 @@ RoxygenNote: 6.0.1
 NeedsCompilation: no
 Packaged: 2017-05-04 17:00:14 UTC; ros
 Author: Rosdyana Kusuma [aut, cre]
+BugReports: https://github.com/rosdyana/ROpenDota/issues
