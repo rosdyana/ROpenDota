@@ -1,6 +1,3 @@
-# ROpenDota
-[![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/ROpenDota)](https://cran.r-project.org/)
-***
 ## Description
 
 An R package that works as an API client for DOTA2 based on OpenDota.
@@ -16,10 +13,11 @@ The service is provided on a best-effort basis. Since it relies on Valve infrast
 #### Build Status
 [![Build Status](https://travis-ci.org/rosdyana/ROpenDota.svg?branch=master)](https://travis-ci.org/rosdyana/ROpenDota)
 
-
 #### Released Version
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ROpenDota)](https://cran.r-project.org/package=ROpenDota)
 
+#### Download Stats.
+[![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/ROpenDota)](https://cran.r-project.org/)
 
 ## Installation
 
