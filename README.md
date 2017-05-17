@@ -1,6 +1,6 @@
 ## About
 
-An R package that works as an API client for DOTA2 based on OpenDota.
+ROpenDota provides a client for the API of OpenDota. OpenDota is a web service which is provide DOTA2 real time data. Data is collected through the Steam WebAPI. With ROpenDota you can easily grab the latest DOTA2 statistics in R programming such as latest match on official international competition, analyzing your or enemy performance to learn their strategies,etc.
 
 #### What is OpenDota?
 OpenDota is a volunteer-developed, open source platform providing Dota 2 data. It provides a web interface for casual users to browse through the collected data, as well as an API to allow developers to build their own applications with it.
