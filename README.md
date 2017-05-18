@@ -35,3 +35,7 @@ Then to install RDota2 run the following on your console:
 devtools::install_github('rosdyana/ROpenDota')
 ```
 
+## Credits
+ - [OpenDota](https://www.opendota.com/) 
+ - [R](https://www.r-project.org/)
+ - [YZU](https://www.yzu.edu.tw/)
