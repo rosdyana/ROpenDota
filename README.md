@@ -17,6 +17,8 @@ The service is provided on a best-effort basis. Since it relies on Valve infrast
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ROpenDota)](https://cran.r-project.org/package=ROpenDota)
 
 #### Download Stats.
+[cran total downloads]: http://cranlogs.r-pkg.org/badges/grand-total/ROpenDota?color=yellowgreen "CRAN Total Downloads"
+
 [![Downloads from the RStudio CRAN mirror](http://cranlogs.r-pkg.org/badges/ROpenDota)](https://cran.r-project.org/)
 
 ## Installation
