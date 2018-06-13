@@ -13,9 +13,23 @@ get_items <- function(){
 
   url <- "https://api.steampowered.com/IEconDOTA2_570/GetGameItems/V001/?key=DE8D93353F9A4FE0126D22B55596B20F"
 
-  raw <- getURL(url)
+  out <- tryCatch({
+    fromJSON(url)
+  },
+  error = function(cond) {
+    message(paste("URL does not seem to exist:", url))
+    message("Here's the original error message:")
+    message(cond)
+    # Choose a return value in case of error
+    return(NA)
+  },
+  warning = function(cond) {
+    message(paste("URL caused a warning:", url))
+    message("Here's the original warning message:")
+    message(cond)
+    # Choose a return value in case of warning
+    return(NULL)
+  })
 
-  itemList <- fromJSON(raw)
-
-  return(itemList)
+  return(out)
 }

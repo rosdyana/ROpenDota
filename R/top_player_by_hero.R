@@ -13,10 +13,24 @@ top_player_by_hero <- function(hero_id){
 
   url <- paste(prefix, hero_id ,sep = "")
 
-  raw <- getURL(url)
+  out <- tryCatch({
+    fromJSON(url)
+  },
+  error = function(cond) {
+    message(paste("URL does not seem to exist:", url))
+    message("Here's the original error message:")
+    message(cond)
+    # Choose a return value in case of error
+    return(NA)
+  },
+  warning = function(cond) {
+    message(paste("URL caused a warning:", url))
+    message("Here's the original warning message:")
+    message(cond)
+    # Choose a return value in case of warning
+    return(NULL)
+  })
 
-  topPlayer <- fromJSON(raw)
-
-  return(topPlayer)
+  return(out)
 
 }
