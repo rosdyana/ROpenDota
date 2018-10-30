@@ -8,7 +8,7 @@
 #' }
 count_in_categories <- function(account_id) {
   api_delay(proc.time()[3])
-  account_id = "135474549"
+  
   prefix <- "https://api.opendota.com/api/players/"
 
   url <- paste(prefix, account_id, "/counts" , sep = "")
